@@ -361,3 +361,13 @@ body .is-layout-flex>* {
     background: rgba(255, 255, 255);
     font-family: "Font Awesome 5 Pro";
 }
+
+[data-background] {
+    background-size: 50% 100% !important;
+    background-repeat: no-repeat;
+    background-position: top left !important;
+}
+
+.ft-btn {
+    color: white !important;
+}
