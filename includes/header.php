@@ -26,7 +26,7 @@
             <div class="pull-left logo-box">
               <div class="logo">
                 <a href="index.php">
-                  <img src="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/images/logo/logo-11.png" alt="Logo" title="" />
+                  <img src="./assets/images/mainlogo.jpg" alt="Logo" title="" />
                 </a>
               </div>
             </div>
@@ -34,7 +34,7 @@
               <!-- Mobile Navigation Toggler -->
               <div class="mobile-nav-toggler">
                 <span class="icon">
-                  <img src="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/images/icons/menu.png" alt="" />
+                  <img style="width: 90px !important;height: 50px" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/images/icons/menu.png" alt="" />
                 </span>
               </div>
               <!-- Main Menu -->
