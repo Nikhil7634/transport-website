@@ -947,10 +947,10 @@
     <!-- Pageloader -->
     <!-- Start of header section
 	============================================= -->
-    
 
-   <!--Main Header -->
-   <?php include "includes/header.php"; ?>
+
+    <!--Main Header -->
+    <?php include "includes/header.php"; ?>
 
     <!-- End of header section
 	============================================= -->
@@ -1273,14 +1273,15 @@
           </div>
         </div>
       </section>
-      <section class="elementor-section elementor-top-section elementor-element elementor-element-8184395 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="8184395" data-element_type="section">
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-aaeef8b elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="aaeef8b" data-element_type="section">
         <div class="elementor-container elementor-column-gap-default">
-          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ea40c9c" data-id="ea40c9c" data-element_type="column">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-59e1d42" data-id="59e1d42" data-element_type="column">
             <div class="elementor-widget-wrap elementor-element-populated">
-              <div class="elementor-element elementor-element-7213da3 elementor-widget elementor-widget-fastrans_our_testimonials_v2" data-id="7213da3" data-element_type="widget" data-widget_type="fastrans_our_testimonials_v2.default">
+              <div class="elementor-element elementor-element-f2ffaa0 elementor-widget elementor-widget-fastrans_our_testimonials_v2" data-id="f2ffaa0" data-element_type="widget" data-widget_type="fastrans_our_testimonials_v2.default">
                 <div class="elementor-widget-container">
                   <!-- Start of Testimonial section
         ============================================= -->
+
                   <section id="ft-testimonial" class="ft-testimonial-section position-relative">
                     <span class="ft-testimonial-map text-center position-absolute">
                       <img decoding="async" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/map-1.png" alt="Awesome Image" />
@@ -1296,7 +1297,7 @@
                             <div class="ft-testimonial-item-innerbox">
                               <div class="ft-testimonial-item-img-wrapper position-relative">
                                 <div class="ft-testimonial-item-img">
-                                  <img loading="lazy" width="70" height="70" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/comment-1.jpg" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" />
+                                  <img width="70" height="70" src="https://www.anupartha.com/wp-content/uploads/2021/05/Swapnil-Jain.jpg" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" loading="lazy" />
                                 </div>
                                 <div class="ft-testimonial-quote d-flex align-items-center justify-content-center position-absolute">
                                   <img decoding="async" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/images/shape/quote.png" alt="" />
@@ -1307,7 +1308,7 @@
                               </div>
                               <div class="ft-testimonial-name headline position-relative">
                                 <span class="ft-testimonial-shape"></span>
-                                <h3>John Doe</h3>
+                                <h3>Arvind Yadav</h3>
                               </div>
                             </div>
                           </div>
@@ -1315,7 +1316,7 @@
                             <div class="ft-testimonial-item-innerbox">
                               <div class="ft-testimonial-item-img-wrapper position-relative">
                                 <div class="ft-testimonial-item-img">
-                                  <img width="70" height="70" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/author-1.jpg" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" loading="lazy" />
+                                  <img width="70" height="70" src="https://www.endometriosis-india.com/wp-content/uploads/2019/03/sravya-01.jpg" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" loading="lazy" />
                                 </div>
                                 <div class="ft-testimonial-quote d-flex align-items-center justify-content-center position-absolute">
                                   <img decoding="async" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/images/shape/quote.png" alt="" />
@@ -1326,7 +1327,7 @@
                               </div>
                               <div class="ft-testimonial-name headline position-relative">
                                 <span class="ft-testimonial-shape"></span>
-                                <h3>jon doe</h3>
+                                <h3>Archana Gupta</h3>
                               </div>
                             </div>
                           </div>
@@ -1334,10 +1335,7 @@
                             <div class="ft-testimonial-item-innerbox">
                               <div class="ft-testimonial-item-img-wrapper position-relative">
                                 <div class="ft-testimonial-item-img">
-                                  <img width="70" height="70" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/author-3-70x70.jpg" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" loading="lazy" srcset="
-                                        https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/author-3-70x70.jpg 70w,
-                                        https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/author-3.jpg       77w
-                                      " sizes="(max-width: 70px) 100vw, 70px" />
+                                  <img width="70" height="70" src="https://www.aroh.in/images/Ritu.jpg" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" loading="lazy" />
                                 </div>
                                 <div class="ft-testimonial-quote d-flex align-items-center justify-content-center position-absolute">
                                   <img decoding="async" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/images/shape/quote.png" alt="" />
@@ -1348,7 +1346,7 @@
                               </div>
                               <div class="ft-testimonial-name headline position-relative">
                                 <span class="ft-testimonial-shape"></span>
-                                <h3>jane salima</h3>
+                                <h3>Hema Raut</h3>
                               </div>
                             </div>
                           </div>
@@ -1356,7 +1354,7 @@
                             <div class="ft-testimonial-item-innerbox">
                               <div class="ft-testimonial-item-img-wrapper position-relative">
                                 <div class="ft-testimonial-item-img">
-                                  <img width="70" height="70" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/tst2.jpg" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" loading="lazy" />
+                                  <img width="70" height="70" src="https://www.ucl.ac.uk/prospective-students/international/sites/prospective_students_international/files/styles/large_image/public/alumni_picture_int_india_anjul_khadria.jpg?itok=pVl_Gj4W" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" loading="lazy" />
                                 </div>
                                 <div class="ft-testimonial-quote d-flex align-items-center justify-content-center position-absolute">
                                   <img decoding="async" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/images/shape/quote.png" alt="" />
@@ -1367,7 +1365,8 @@
                               </div>
                               <div class="ft-testimonial-name headline position-relative">
                                 <span class="ft-testimonial-shape"></span>
-                                <h3>steve powers</h3>
+                                <h3>Vikram Gupta</h3>
+
                               </div>
                             </div>
                           </div>
@@ -1375,7 +1374,7 @@
                             <div class="ft-testimonial-item-innerbox">
                               <div class="ft-testimonial-item-img-wrapper position-relative">
                                 <div class="ft-testimonial-item-img">
-                                  <img width="70" height="70" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/tst1.jpg" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" loading="lazy" />
+                                  <img width="70" height="70" src="https://www.thehillside.co.in/images/phenomenon-based-learning-schools.jpg" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" loading="lazy" />
                                 </div>
                                 <div class="ft-testimonial-quote d-flex align-items-center justify-content-center position-absolute">
                                   <img decoding="async" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/images/shape/quote.png" alt="" />
@@ -1386,7 +1385,7 @@
                               </div>
                               <div class="ft-testimonial-name headline position-relative">
                                 <span class="ft-testimonial-shape"></span>
-                                <h3>erin chang</h3>
+                                <h3>Divya Yadav</h3>
                               </div>
                             </div>
                           </div>
@@ -1414,7 +1413,7 @@
     <!-- Pageloader -->
     <!-- Start Of Footer section
 	============================================= -->
-   <?php include "includes/footer.php"; ?>
+    <?php include "includes/footer.php"; ?>
     <!-- End of Footer section
 	============================================= -->
   </div>

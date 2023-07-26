@@ -1001,7 +1001,7 @@
                               <div class="ft-contact-page-contact-info">
                                 <div class="ft-contact-cta-items d-flex">
                                   <div class="ft-contact-cta-icon d-flex align-items-center justify-content-center">
-                                    <i class="fa-solid fa-location-dot"></i>
+                                    <i style="-webkit-text-stroke: 2px red;color: transparent;" class="fa-solid fa-location-dot"></i>
                                   </div>
                                   <div class="ft-contact-cta-text headline pera-content">
                                     <h3>Office address</h3>
@@ -1012,7 +1012,7 @@
                                 </div>
                                 <div class="ft-contact-cta-items d-flex">
                                   <div class="ft-contact-cta-icon d-flex align-items-center justify-content-center">
-                                    <i class="fa-solid fa-phone"></i>
+                                    <i style="-webkit-text-stroke: 2px red;color: transparent;" class="fa-solid fa-phone"></i>
                                   </div>
                                   <div class="ft-contact-cta-text headline pera-content">
                                     <h3>Telephone number</h3>
@@ -1023,7 +1023,7 @@
                                 </div>
                                 <div class="ft-contact-cta-items d-flex">
                                   <div class="ft-contact-cta-icon d-flex align-items-center justify-content-center">
-                                    <i class="fa-solid fa-envelopes-bulk"></i>
+                                    <i style="-webkit-text-stroke: 2px red;color: transparent;" class="fa-solid fa-envelopes-bulk"></i>
                                   </div>
                                   <div class="ft-contact-cta-text headline pera-content">
                                     <h3>Mail address</h3>
