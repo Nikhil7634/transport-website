@@ -19,7 +19,8 @@
 
     <!-- font awesome link -->
     <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v6.4.0/css/all.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/6.2.0/css/flat-ui.min.css" integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/6.2.0/css/flat-ui.min.css" integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
     <script type="text/javascript">
         window._wpemojiSettings = {
@@ -137,67 +138,67 @@
             font-size: 13px;
             text-align: center;
         }
-
+        
         .is-dark-theme .wp-block-audio figcaption {
             color: hsla(0, 0%, 100%, 0.65);
         }
-
+        
         .wp-block-audio {
             margin: 0 0 1em;
         }
-
+        
         .wp-block-code {
             border: 1px solid #ccc;
             border-radius: 4px;
             font-family: Menlo, Consolas, monaco, monospace;
             padding: 0.8em 1em;
         }
-
+        
         .wp-block-embed figcaption {
             color: #555;
             font-size: 13px;
             text-align: center;
         }
-
+        
         .is-dark-theme .wp-block-embed figcaption {
             color: hsla(0, 0%, 100%, 0.65);
         }
-
+        
         .wp-block-embed {
             margin: 0 0 1em;
         }
-
+        
         .blocks-gallery-caption {
             color: #555;
             font-size: 13px;
             text-align: center;
         }
-
+        
         .is-dark-theme .blocks-gallery-caption {
             color: hsla(0, 0%, 100%, 0.65);
         }
-
+        
         .wp-block-image figcaption {
             color: #555;
             font-size: 13px;
             text-align: center;
         }
-
+        
         .is-dark-theme .wp-block-image figcaption {
             color: hsla(0, 0%, 100%, 0.65);
         }
-
+        
         .wp-block-image {
             margin: 0 0 1em;
         }
-
+        
         .wp-block-pullquote {
             border-bottom: 4px solid;
             border-top: 4px solid;
             color: currentColor;
             margin-bottom: 1.75em;
         }
-
+        
         .wp-block-pullquote cite,
         .wp-block-pullquote footer,
         .wp-block-pullquote__citation {
@@ -206,13 +207,13 @@
             font-style: normal;
             text-transform: uppercase;
         }
-
+        
         .wp-block-quote {
             border-left: 0.25em solid;
             margin: 0 0 1.75em;
             padding-left: 1em;
         }
-
+        
         .wp-block-quote cite,
         .wp-block-quote footer {
             color: currentColor;
@@ -220,104 +221,172 @@
             font-style: normal;
             position: relative;
         }
-
+        
         .wp-block-quote.has-text-align-right {
             border-left: none;
             border-right: 0.25em solid;
             padding-left: 0;
             padding-right: 1em;
         }
-
+        
         .wp-block-quote.has-text-align-center {
             border: none;
             padding-left: 0;
         }
-
+        
         .wp-block-quote.is-large,
         .wp-block-quote.is-style-large,
         .wp-block-quote.is-style-plain {
             border: none;
         }
-
+        
         .wp-block-search .wp-block-search__label {
             font-weight: 700;
         }
-
+        
         .wp-block-search__button {
             border: 1px solid #ccc;
             padding: 0.375em 0.625em;
         }
-
-        :where(.wp-block-group.has-background) {
+        
+         :where(.wp-block-group.has-background) {
             padding: 1.25em 2.375em;
         }
-
+        
         .wp-block-separator.has-css-opacity {
             opacity: 0.4;
         }
-
+        
         .wp-block-separator {
             border: none;
             border-bottom: 2px solid;
             margin-left: auto;
             margin-right: auto;
         }
-
+        
         .wp-block-separator.has-alpha-channel-opacity {
             opacity: 1;
         }
-
+        
         .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
             width: 100px;
         }
-
+        
         .wp-block-separator.has-background:not(.is-style-dots) {
             border-bottom: none;
             height: 1px;
         }
-
+        
         .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
             height: 2px;
         }
-
+        
         .wp-block-table {
             margin: 0 0 1em;
         }
-
+        
         .wp-block-table td,
         .wp-block-table th {
             word-break: normal;
         }
-
+        
         .wp-block-table figcaption {
             color: #555;
             font-size: 13px;
             text-align: center;
         }
-
+        
         .is-dark-theme .wp-block-table figcaption {
             color: hsla(0, 0%, 100%, 0.65);
         }
-
+        
         .wp-block-video figcaption {
             color: #555;
             font-size: 13px;
             text-align: center;
         }
-
+        
         .is-dark-theme .wp-block-video figcaption {
             color: hsla(0, 0%, 100%, 0.65);
         }
-
+        
         .wp-block-video {
             margin: 0 0 1em;
         }
-
+        
         .wp-block-template-part.has-background {
             margin-bottom: 0;
             margin-top: 0;
             padding: 1.25em 2.375em;
         }
+        
+
+/* logo */
+
+.ft11-main-header .header-upper .logo-box:before {
+    right: 150px !important;
+    background: white !important;
+    display: grid;
+    place-items: center;
+}
+
+.ft11-main-header .header-upper .logo-box .logo a img {
+    transform: translatex(-200px);
+    height: 70px !important;
+    width: 100% !important;
+    margin-top: 15px;
+}
+
+@media(max-width: 710px) {
+    .ft11-main-header .header-upper .logo-box:before {
+        right: -30px !important;
+    }
+    .ft11-main-header .header-upper .logo-box .logo a img {
+        transform: translatex(0px);
+        height: 50px !important;
+        width: 100% !important;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 1410px) and (min-width: 710px) {
+    .ft11-main-header .ft11-header-top .ft11-top-left {
+        position: relative;
+        padding: 14px 0px;
+        display: none !important;
+    }
+    .ft11-main-header .header-upper .logo-box:before {
+        right: -30px !important;
+    }
+    .ft11-main-header .header-upper .logo-box .logo a img {
+        transform: translatex(0px);
+        height: 50px !important;
+        width: 100% !important;
+        margin-top: 50px !important;
+    }
+}
+
+@media(max-width: 1610px) and (min-width: 1410px) {
+    .ft11-main-header .header-upper .logo-box:before {
+        right: 30px !important;
+    }
+    .ft11-main-header .header-upper .logo-box .logo a img {
+        transform: translatex(-100px);
+        height: 50px !important;
+        width: 100% !important;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:710px) {
+    .ft-about-img {
+        margin-top: 80px;
+    }
+}
+
+.ft-counterup-innerbox {
+    height: 100%;
+}
     </style>
     <link rel="stylesheet" id="wc-blocks-vendors-style-css" href="https://themexriver.com/fastrans-theme/fastrans/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=10.0.4" type="text/css" media="all" />
     <link rel="stylesheet" id="wc-blocks-style-css" href="https://themexriver.com/fastrans-theme/fastrans/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=10.0.4" type="text/css" media="all" />
@@ -357,7 +426,7 @@
     <link rel="stylesheet" id="owl-carousel-css" href="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/css/owl.carousel.min.css?ver=6.2.2" type="text/css" media="all" />
     <link rel="stylesheet" id="fastrans-main-style-css" href="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/css/style.css?ver=6.2.2" type="text/css" media="all" />
     <style id="fastrans-main-style-inline-css" type="text/css">
-        :root {
+         :root {
             --ft-main-theme: #008eff;
             --ft-second-theme: #fa4318;
         }
@@ -372,7 +441,8 @@
     <link rel="stylesheet" id="home_v10-css" href="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/css/home_v10.css?ver=6.2.2" type="text/css" media="all" />
     <link rel="stylesheet" id="home_v11-css" href="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/css/home_v11.css?ver=6.2.2" type="text/css" media="all" />
     <link rel="stylesheet" id="fastrans-theme-fonts-css" href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C200%2C300%2C400%2C600%2C500%2C700%7CRoboto%3A100%2C300%2C400%2C500%2C700&#038;subset=latin%2Clatin-ext" type="text/css" media="all" />
-    <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2" type="text/css" media="all" />
+    <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2"
+        type="text/css" media="all" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <script type="text/javascript" id="jquery-core-js-extra">
         /* <![CDATA[ */
@@ -404,23 +474,23 @@
         .header-top-three {
             background-color: ;
         }
-
+        
         .header-top-three:before {
             background-color: ;
         }
-
+        
         .header-top-three .top-left .top-list li:before {
             background-color: ;
         }
-
+        
         .header-top-three .top-left .top-list li:nth-child(2):before {
             background-color: ;
         }
-
+        
         .header-top-three .top-left .top-list li:nth-child(3):before {
             background-color: ;
         }
-
+        
         .header-top-three .top-left .top-list li,
         .header-top-three .top-left .top-list li .icon,
         .header-top-three .top-left .top-list li:first-child .icon,
@@ -428,75 +498,75 @@
         .header-top-three .social-box li a {
             color: ;
         }
-
+        
         .header-top-three .social-box li a:hover {
             color: ;
         }
-
+        
         .ftn-header-content-wrap .brand-logo,
         .ftn-header-content-area:before,
         .ftn-header-main-menu-cta-btn .header-cta-btn a {
             background-color: #d97500;
         }
-
+        
         .ftn-header-main-menu-cta-btn .header-cta-btn a:hover {
             background-color: #ba6502;
         }
-
+        
         .footer_style_nine .ft-footer-widget .widget-title {
             color: #ffffff;
         }
-
+        
         .footer_style_nine .ft-footer-widget .ft-footer-logo-widget p,
         .footer_style_nine .ft-footer-widget .ft-footer-newslatter-widget p,
         .footer_style_nine .ft-footer-widget .ft-footer-info-widget a,
         .footer_style_nine .ft-footer-widget .ft-footer-info-widget .office-open-hour p {
             color: #9d9d9d;
         }
-
+        
         .footer_style_nine .ftn-footer-copyright {
             color: #ffffff;
         }
-
+        
         .footer_style_nine .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn,
         .footer_style_nine .ft-footer-widget .ft-footer-newslatter-widget button,
         .footer_style_nine .ft-footer-widget .widget-title:before {
             background-color: #d97500;
         }
-
+        
         .footer_style_nine .ft-footer-widget .ft-footer-info-widget i {
             color: #d97500;
         }
-
+        
         .footer_style_nine .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn:hover {
             background-color: ;
         }
-
+        
         .footer_style_eleven .ft-footer-widget .widget-title {
             color: #ffffff;
         }
-
+        
         .footer_style_eleven .ft-footer-widget .ft-footer-logo-widget p,
         .footer_style_eleven .ft-footer-widget .ft-footer-newslatter-widget p,
         .footer_style_eleven .ft-footer-widget .ft-footer-info-widget a,
         .footer_style_eleven .ft-footer-widget .ft-footer-info-widget .office-open-hour p {
             color: #9d9d9d;
         }
-
+        
         .footer_style_eleven .ftn-footer-copyright {
             color: #ffffff;
         }
-
+        
         .footer_style_eleven .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn,
         .footer_style_eleven .ft-footer-widget .ft-footer-newslatter-widget button,
         .footer_style_eleven .ft-footer-widget .widget-title:before {
             background-color: #d9262a;
         }
-
+        
         .footer_style_eleven .ft-footer-widget .ft-footer-info-widget i {
             color: #d9262a;
         }
-
+        
         .footer_style_eleven .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn:hover {
             background-color: ;
         }
@@ -508,7 +578,8 @@
             }
         </style>
     </noscript>
-    <meta name="generator" content="Elementor 3.13.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto" />
+    <meta name="generator" content="Elementor 3.13.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto"
+    />
     <meta name="generator" content="Powered by Slider Revolution 6.6.12 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
     <script>
         function setREVStartSize(e) {
@@ -631,7 +702,8 @@
                                             <rs-module id="rev_slider_2_1" style="" data-version="6.6.12">
                                                 <rs-slides style="overflow: hidden; position: absolute">
                                                     <rs-slide style="position: absolute" data-key="rs-4" data-title="Slide" data-thumb="assets/images/maintruck.jpg" data-anim="adpr:false;" data-in="o:0;" data-out="a:false;">
-                                                        <img decoding="async" src="//themexriver.com/fastrans-theme/fastrans/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="slider-1.jpg" width="1614" height="908" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-1.jpg" data-parallax="3" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina />
+                                                        <img decoding="async" src="//themexriver.com/fastrans-theme/fastrans/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="slider-1.jpg" width="1614" height="908" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-1.jpg"
+                                                            data-parallax="3" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina />
                                                         <!--
 							-->
                                                         <rs-layer id="slider-2-slide-4-layer-0" data-type="image" data-rsp_ch="on" data-text="w:normal;s:20,16,12,7;l:0,20,15,9;" data-dim="w:['100%','100%','100%','100%'];h:['100%','100%','100%','100%'];" data-basealign="slide" data-frame_999="o:0;st:w;" style="z-index: 8;">
@@ -640,19 +712,24 @@
                                                         <!--
 
 							-->
-                                                        <rs-layer id="slider-2-slide-4-layer-1" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:340px,280px,212px,124px;" data-text="w:normal;s:72,59,44,40;l:80,66,50,40;fw:700;" data-frame_0="o:1;" data-frame_0_chars="d:5;o:0;rX:-90deg;oZ:-50;" data-frame_1="sp:1750;" data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;" style="z-index: 9; font-family: 'Poppins'">
+                                                        <rs-layer id="slider-2-slide-4-layer-1" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:340px,280px,212px,124px;" data-text="w:normal;s:72,59,44,40;l:80,66,50,40;fw:700;" data-frame_0="o:1;" data-frame_0_chars="d:5;o:0;rX:-90deg;oZ:-50;"
+                                                            data-frame_1="sp:1750;" data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;" style="z-index: 9; font-family: 'Poppins'">
                                                             We Are Global<br />Logistic Provider
                                                         </rs-layer>
                                                         <!--
 
 							-->
-                                                        <rs-layer id="slider-2-slide-4-layer-2" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:533px,440px,334px,219px;" data-text="w:normal;s:18,14,16,16;l:25,20,20,20;fw:500;" data-frame_0="x:-100%;" data-frame_0_mask="u:t;" data-frame_1="e:power4.inOut;st:1000;sp:1300;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" style="z-index: 10; font-family: 'Roboto'">
+                                                        <rs-layer id="slider-2-slide-4-layer-2" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:533px,440px,334px,219px;" data-text="w:normal;s:18,14,16,16;l:25,20,20,20;fw:500;" data-frame_0="x:-100%;" data-frame_0_mask="u:t;" data-frame_1="e:power4.inOut;st:1000;sp:1300;"
+                                                            data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" style="z-index: 10; font-family: 'Roboto'">
                                                             Lpsum dolor sit amet, consectetur adipiscing elit, sed do eius-<br />mod tempor ut labore et dolore magna aliqua.
                                                         </rs-layer>
                                                         <!--
 
 							-->
-                                                        <a id="slider-2-slide-4-layer-5" class="rs-layer rev-btn" href="about.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:235px,194px,147px,138px;yo:620px,512px,389px,275px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;" data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;" data-frame_0="x:175%;o:1;" data-frame_0_mask="u:t;x:-100%;" data-frame_1="e:power3.out;st:1500;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;" style="
+                                                        <a id="slider-2-slide-4-layer-5" class="rs-layer rev-btn" href="about.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:235px,194px,147px,138px;yo:620px,512px,389px,275px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;"
+                                                            data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;"
+                                                            data-frame_0="x:175%;o:1;" data-frame_0_mask="u:t;x:-100%;" data-frame_1="e:power3.out;st:1500;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;"
+                                                            style="
                                   z-index: 12;
                                   background-color: #00044b;
                                   font-family: 'Poppins';
@@ -661,7 +738,10 @@
                                                         <!--
 
 							-->
-                                                        <a id="slider-2-slide-4-layer-6" class="rs-layer rev-btn" href="services.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:620px,512px,389px,274px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;" data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;" data-frame_0="x:-175%;o:1;" data-frame_0_mask="u:t;x:100%;" data-frame_1="e:power3.out;st:1200;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;" style="
+                                                        <a id="slider-2-slide-4-layer-6" class="rs-layer rev-btn" href="services.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:620px,512px,389px,274px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;"
+                                                            data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;"
+                                                            data-frame_0="x:-175%;o:1;" data-frame_0_mask="u:t;x:100%;" data-frame_1="e:power3.out;st:1200;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;"
+                                                            style="
                                   z-index: 11;
                                   background-color: #00044b;
                                   font-family: 'Poppins';
@@ -671,28 +751,35 @@
 -->
                                                     </rs-slide>
                                                     <rs-slide style="position: absolute" data-key="rs-5" data-title="Slide" data-thumb="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-1-2-50x100.jpg" data-anim="adpr:false;" data-in="o:0;" data-out="a:false;">
-                                                        <img decoding="async" src="//themexriver.com/fastrans-theme/fastrans/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Awesome Image" title="slider-1-2.jpg" width="1606" height="815" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-1-2.jpg" data-parallax="3" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina />
+                                                        <img decoding="async" src="//themexriver.com/fastrans-theme/fastrans/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Awesome Image" title="slider-1-2.jpg" width="1606" height="815" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-1-2.jpg"
+                                                            data-parallax="3" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina />
                                                         <!--
 							-->
                                                         <rs-layer id="slider-2-slide-5-layer-0" data-type="image" data-rsp_ch="on" data-text="w:normal;s:20,16,12,7;l:0,20,15,9;" data-dim="w:['100%','100%','100%','100%'];h:['100%','100%','100%','100%'];" data-basealign="slide" data-frame_999="o:0;st:w;" style="z-index: 8">
-                                                            <img decoding="async" src="//themexriver.com/fastrans-theme/fastrans/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Awesome Image" class="tp-rs-img rs-lazyload" width="1903" height="901" data-lazyload="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-shape1.png" data-c="cover-proportional" data-no-retina />
+                                                            <img decoding="async" src="//themexriver.com/fastrans-theme/fastrans/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Awesome Image" class="tp-rs-img rs-lazyload" width="1903" height="901" data-lazyload="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-shape1.png"
+                                                                data-c="cover-proportional" data-no-retina />
                                                         </rs-layer>
                                                         <!--
 
 							-->
-                                                        <rs-layer id="slider-2-slide-5-layer-1" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:340px,280px,212px,124px;" data-text="w:normal;s:72,59,44,40;l:80,66,50,40;fw:700;" data-frame_0="o:1;" data-frame_0_chars="d:5;o:0;rX:-90deg;oZ:-50;" data-frame_1="sp:1750;" data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;" style="z-index: 9; font-family: 'Poppins'">
+                                                        <rs-layer id="slider-2-slide-5-layer-1" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:340px,280px,212px,124px;" data-text="w:normal;s:72,59,44,40;l:80,66,50,40;fw:700;" data-frame_0="o:1;" data-frame_0_chars="d:5;o:0;rX:-90deg;oZ:-50;"
+                                                            data-frame_1="sp:1750;" data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;" style="z-index: 9; font-family: 'Poppins'">
                                                             Moving Your Products <br />Across All Borders
                                                         </rs-layer>
                                                         <!--
 
 							-->
-                                                        <rs-layer id="slider-2-slide-5-layer-2" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:534px,440px,334px,219px;" data-text="w:normal;s:18,14,16,16;l:25,20,20,20;fw:500;" data-frame_0="x:-100%;" data-frame_0_mask="u:t;" data-frame_1="e:power4.inOut;st:1000;sp:1300;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" style="z-index: 10; font-family: 'Roboto'">
+                                                        <rs-layer id="slider-2-slide-5-layer-2" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:534px,440px,334px,219px;" data-text="w:normal;s:18,14,16,16;l:25,20,20,20;fw:500;" data-frame_0="x:-100%;" data-frame_0_mask="u:t;" data-frame_1="e:power4.inOut;st:1000;sp:1300;"
+                                                            data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" style="z-index: 10; font-family: 'Roboto'">
                                                             Denounce with righteous indignation and dislike men who are beguiled<br />and demoralized by the charms of pleasure.
                                                         </rs-layer>
                                                         <!--
 
 							-->
-                                                        <a id="slider-2-slide-5-layer-5" class="rs-layer rev-btn" href="about.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:235px,194px,147px,138px;yo:620px,512px,389px,275px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;" data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;" data-frame_0="x:175%;o:1;" data-frame_0_mask="u:t;x:-100%;" data-frame_1="e:power3.out;st:1500;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;" style="
+                                                        <a id="slider-2-slide-5-layer-5" class="rs-layer rev-btn" href="about.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:235px,194px,147px,138px;yo:620px,512px,389px,275px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;"
+                                                            data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;"
+                                                            data-frame_0="x:175%;o:1;" data-frame_0_mask="u:t;x:-100%;" data-frame_1="e:power3.out;st:1500;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;"
+                                                            style="
                                   z-index: 12;
                                   background-color: #00044b;
                                   font-family: 'Poppins';
@@ -701,7 +788,10 @@
                                                         <!--
 
 							-->
-                                                        <a id="slider-2-slide-5-layer-6" class="rs-layer rev-btn" href="services.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:620px,512px,389px,274px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;" data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;" data-frame_0="x:-175%;o:1;" data-frame_0_mask="u:t;x:100%;" data-frame_1="e:power3.out;st:1200;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;" style="
+                                                        <a id="slider-2-slide-5-layer-6" class="rs-layer rev-btn" href="services.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:620px,512px,389px,274px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;"
+                                                            data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;"
+                                                            data-frame_0="x:-175%;o:1;" data-frame_0_mask="u:t;x:100%;" data-frame_1="e:power3.out;st:1200;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;"
+                                                            style="
                                   z-index: 11;
                                   background-color: #00044b;
                                   font-family: 'Poppins';
@@ -711,29 +801,36 @@
 -->
                                                     </rs-slide>
                                                     <rs-slide style="position: absolute;" data-key="rs-6" data-title="Slide" data-thumb="assets/images/maintruck.jpg" data-anim="adpr:false;" data-in="o:0;" data-out="a:false;">
-                                                        <img decoding="async" src="//themexriver.com/fastrans-theme/fastrans/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="slider-1.jpg" width="1614" height="908" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-1.jpg" data-parallax="3" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina />
+                                                        <img decoding="async" src="//themexriver.com/fastrans-theme/fastrans/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="slider-1.jpg" width="1614" height="908" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-1.jpg"
+                                                            data-parallax="3" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina />
                                                         <!--
 							-->
                                                         <rs-layer id="slider-2-slide-6-layer-0" data-type="image" data-rsp_ch="on" data-text="w:normal;s:20,16,12,7;l:0,20,15,9;" data-dim="w:['100%','100%','100%','100%'];h:['100%','100%','100%','100%'];" data-basealign="slide" data-frame_999="o:0;st:w;" style="z-index: 8">
-                                                            <img decoding="async" src="//themexriver.com/fastrans-theme/fastrans/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Awesome Image" class="tp-rs-img rs-lazyload" width="1903" height="901" data-lazyload="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-shape1.png" data-c="cover-proportional" data-no-retina />
+                                                            <img decoding="async" src="//themexriver.com/fastrans-theme/fastrans/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Awesome Image" class="tp-rs-img rs-lazyload" width="1903" height="901" data-lazyload="//themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/slider-shape1.png"
+                                                                data-c="cover-proportional" data-no-retina />
                                                         </rs-layer>
                                                         <!--
 
 							-->
-                                                        <rs-layer id="slider-2-slide-6-layer-1" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:340px,280px,212px,124px;" data-text="w:normal;s:72,59,44,40;l:80,66,50,40;fw:700;" data-frame_0="o:1;" data-frame_0_chars="d:5;o:0;rX:-90deg;oZ:-50;" data-frame_1="sp:1750;" data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;" style="z-index: 9; font-family: 'Poppins'">
+                                                        <rs-layer id="slider-2-slide-6-layer-1" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:340px,280px,212px,124px;" data-text="w:normal;s:72,59,44,40;l:80,66,50,40;fw:700;" data-frame_0="o:1;" data-frame_0_chars="d:5;o:0;rX:-90deg;oZ:-50;"
+                                                            data-frame_1="sp:1750;" data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;" style="z-index: 9; font-family: 'Poppins'">
                                                             We Aim to Contribute <br />Well to Your Company
                                                         </rs-layer>
                                                         <!--
 
 							-->
-                                                        <rs-layer id="slider-2-slide-6-layer-2" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:533px,440px,334px,219px;" data-text="w:normal;s:18,14,16,16;l:25,20,20,20;fw:500;" data-frame_0="x:-100%;" data-frame_0_mask="u:t;" data-frame_1="e:power4.inOut;st:1000;sp:1300;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" style="z-index: 10; font-family: 'Roboto'">
+                                                        <rs-layer id="slider-2-slide-6-layer-2" data-type="text" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:533px,440px,334px,219px;" data-text="w:normal;s:18,14,16,16;l:25,20,20,20;fw:500;" data-frame_0="x:-100%;" data-frame_0_mask="u:t;" data-frame_1="e:power4.inOut;st:1000;sp:1300;"
+                                                            data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" style="z-index: 10; font-family: 'Roboto'">
                                                             Through weakness of will, which is the same as saying through shrinking from toil and pain
                                                             <br />these cases are perfectly simple and easy to distinguish in a free.
                                                         </rs-layer>
                                                         <!--
 
 							-->
-                                                        <a id="slider-2-slide-6-layer-5" class="rs-layer rev-btn" href="about.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:235px,194px,147px,138px;yo:620px,512px,389px,275px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;" data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;" data-frame_0="x:175%;o:1;" data-frame_0_mask="u:t;x:-100%;" data-frame_1="e:power3.out;st:1500;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;" style="
+                                                        <a id="slider-2-slide-6-layer-5" class="rs-layer rev-btn" href="about.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:235px,194px,147px,138px;yo:620px,512px,389px,275px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;"
+                                                            data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;"
+                                                            data-frame_0="x:175%;o:1;" data-frame_0_mask="u:t;x:-100%;" data-frame_1="e:power3.out;st:1500;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;"
+                                                            style="
                                   z-index: 12;
                                   background-color: #00044b;
                                   font-family: 'Poppins';
@@ -742,7 +839,10 @@
                                                         <!--
 
 							-->
-                                                        <a id="slider-2-slide-6-layer-6" class="rs-layer rev-btn" href="services.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:620px,512px,389px,274px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;" data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;" data-frame_0="x:-175%;o:1;" data-frame_0_mask="u:t;x:100%;" data-frame_1="e:power3.out;st:1200;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;" style="
+                                                        <a id="slider-2-slide-6-layer-6" class="rs-layer rev-btn" href="services.php" target="_blank" rel="noopener" data-type="button" data-rsp_ch="on" data-xy="xo:15px,12px,9px,5px;yo:620px,512px,389px,274px;" data-text="w:normal;s:18,14,10,14;l:52,42,31,40;fw:500;a:center;"
+                                                            data-dim="w:200px,165px,125px,120px;h:55px,45px,34px,45px;minh:0px,none,none,none;" data-padding="r:40,33,25,15;l:40,33,25,15;" data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;bor:3px,3px,3px,3px;"
+                                                            data-frame_0="x:-175%;o:1;" data-frame_0_mask="u:t;x:100%;" data-frame_1="e:power3.out;st:1200;sp:1000;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;" data-frame_hover="bgc:#ea1e00;boc:#ea1e00;bor:3px,3px,3px,3px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;"
+                                                            style="
                                   z-index: 11;
                                   background-color: #00044b;
                                   font-family: 'Poppins';
@@ -1366,7 +1466,8 @@
                                                 <div class="ft-item-innerbox">
                                                     <div class="ft-project-itembox position-relative">
                                                         <div class="ft-project-img">
-                                                            <img width="770" height="429" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/bp2-770x429.jpg" class="attachment-fastrans_770x429 size-fastrans_770x429 wp-post-image" alt="Awesome Image" decoding="async" loading="lazy" srcset="
+                                                            <img width="770" height="429" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/bp2-770x429.jpg" class="attachment-fastrans_770x429 size-fastrans_770x429 wp-post-image" alt="Awesome Image" decoding="async" loading="lazy"
+                                                                srcset="
                                     https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/bp2-770x429.jpg 770w,
                                     https://themexriver.com/fastrans-theme/fastrans/wp-content/uploads/sites/2/2021/10/bp2-270x150.jpg 270w
                                   " sizes="(max-width: 770px) 100vw, 770px" />
@@ -1499,7 +1600,8 @@
                                                         <div class="ft-testimonial-item-innerbox">
                                                             <div class="ft-testimonial-item-img-wrapper position-relative">
                                                                 <div class="ft-testimonial-item-img">
-                                                                    <img width="70" height="70" src="https://www.ucl.ac.uk/prospective-students/international/sites/prospective_students_international/files/styles/large_image/public/alumni_picture_int_india_anjul_khadria.jpg?itok=pVl_Gj4W" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image" alt="" decoding="async" loading="lazy" />
+                                                                    <img width="70" height="70" src="https://www.ucl.ac.uk/prospective-students/international/sites/prospective_students_international/files/styles/large_image/public/alumni_picture_int_india_anjul_khadria.jpg?itok=pVl_Gj4W" class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image"
+                                                                        alt="" decoding="async" loading="lazy" />
                                                                 </div>
                                                                 <div class="ft-testimonial-quote d-flex align-items-center justify-content-center position-absolute">
                                                                     <img decoding="async" src="https://themexriver.com/fastrans-theme/fastrans/wp-content/themes/fastrans/assets/images/shape/quote.png" alt="" />
@@ -1711,7 +1813,7 @@
         #rev_slider_2_1_wrapper .gyges .tp-thumb {
             opacity: 1;
         }
-
+        
         #rev_slider_2_1_wrapper .gyges .tp-thumb-img-wrap {
             padding: 3px;
             background-color: rgba(0, 0, 0, 0.25);
@@ -1724,7 +1826,7 @@
             transition: all 0.3s;
             -webkit-transition: all 0.3s;
         }
-
+        
         #rev_slider_2_1_wrapper .gyges .tp-thumb-image {
             padding: 3px;
             display: block;
@@ -1734,7 +1836,7 @@
             -moz-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
             box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
         }
-
+        
         #rev_slider_2_1_wrapper .gyges .tp-thumb.rs-touchhover .tp-thumb-img-wrap,
         #rev_slider_2_1_wrapper .gyges .tp-thumb.selected .tp-thumb-img-wrap {
             background: -moz-linear-gradient(top, #ffffff 0%, #777777 100%);
